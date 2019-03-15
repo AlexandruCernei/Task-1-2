@@ -1,0 +1,172 @@
+body {
+	background: rgba(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.header {
+	position: relative;
+	width: 100%;
+}
+.header h1 {
+	font-size: 40px;
+    text-align: center;
+    margin: 2.3em 0 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+.main-container {
+	width: 30%;
+	margin: 0px auto 0px auto;
+	background: rgba(0, 0, 0, 0.22);
+	padding: 12px;
+	position: relative;
+	box-shadow: 5px 5px 7px 0px rgba(0, 0, 0, 0.12);
+}
+.content {
+	padding: 50px 50px;
+	text-align: center;
+	position: relative;
+}
+.content h2 {
+	color: #fff;
+	font-size: 28px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: 400;
+	margin-bottom: 1.3em;
+	text-transform: uppercase;
+}
+.input-user {
+	position: relative;
+}
+.input-user i {
+	position: absolute;
+	left: 12px;
+	bottom: 24.8px;
+	font-size: 16px;
+	color: #000;
+}
+.fa-user:before {
+	content: "\f007";
+}
+.content input[type="text"], .content input[type="password"] {
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #000000;
+	padding: 12px 12px 12px 40px;
+	width: 85%;
+	-webkit-appearance: none;
+	margin-bottom: 12px;
+	border: 1px solid #fff;
+}
+.content input[type="submit"] {
+	font-weight: bold;
+	width: 100%;
+	background: #19b9cc;
+	border: none;
+	margin: 3em 0 1.5em;
+	outline: none;
+	letter-spacing: 1px;
+	font-size: 15px;
+	padding: 14px 0;
+	color: #fff;
+	text-transform: uppercase;
+	-webkit-transition: .5s ease-in;
+	cursor: pointer;
+}
+.content input[type="submit"]:hover {
+	background: #00e5ff;
+}
+.input-text a{
+	color: #fff;
+	font-size: 13px;
+	display: inline;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+#index {
+	background: none;
+	width: 100%;
+	margin: 0px;
+	overflow: hidden;
+}
+.header-index {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+.header-index p {
+	font-size: 40px;
+	margin: 2.3em 0 1.5em;
+	letter-spacing: 4px;
+	color: #3e3e3e;
+	font-family: sans-serif;
+	font-weight: 300;
+}
+.index-container {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.menu {
+	position: relative;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.menu a {
+	display: block;
+	text-transform: uppercase;
+	line-height: 30px;
+	text-decoration: none;
+	color: #3e3e3e;
+	padding-top: 15px;
+}
+.container-text {
+	position: relative;
+	float: left;
+	width: 75%;
+}
+.text-wrapper {
+	text-align: center;
+}
+.text-wrapper h2 {
+	font-weight: 300;
+}
+.divider {
+	text-align: center;
+}
+.divider img {
+	height: 20px;
+	width: 160px;
+}
+.wrapper-info p {
+	max-width: 880px;
+	padding-left: 11%;
+	padding-right: 11%;
+	font-weight: 300;
+	line-height: 20px;
+}
+span.touch-span {
+	color: #3e3e3e;
+}
+span.dot-span {
+	color: #ff3a4c;
+}
